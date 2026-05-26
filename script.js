@@ -4,6 +4,8 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '© OpenStreetMap contributors'
 }).addTo(map);
 
+L.control.locate().addTo(map);
+
 const parkings = [
     {
         name: "Eindhoven Station Bicycle Parking",
