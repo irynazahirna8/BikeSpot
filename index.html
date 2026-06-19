@@ -8,7 +8,14 @@
     <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.90.0/dist/L.Control.Locate.min.css" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"
+        rel="stylesheet"
+    >
 
     <!-- Own CSS -->
     <link rel="stylesheet" href="style.css">
@@ -16,7 +23,11 @@
 <body>
 
     <header>
-        <h1>BikeSpot</h1>
+        <img
+            class="logo"
+            src="assets/logo.png"
+            alt="BikeSpot"
+        >
         <p>Find bicycle parking locations near you</p>
     </header>
 
@@ -27,10 +38,10 @@
     <!-- Leaflet JS -->
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 
-    <!-- Own JS -->
     
     <script src="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.90.0/dist/L.Control.Locate.min.js" charset="utf-8"></script>
 
+    <!-- Own JS -->
     <script src="script.js"></script>
 </body>
 </html>
